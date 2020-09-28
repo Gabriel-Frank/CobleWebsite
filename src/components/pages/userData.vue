@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" class="container-fluid">
     <div style="margin-top: 7rem">
       <h1 class="text-center" style="color: #6f00ff7e; font-weight: 600"><u>Employ Now</u></h1>
       <div class="row">
-        <div v-for="item in info" v-bind:key='item' class="col-4 my-2">
+        <div v-for="item in info" v-bind:key='item' class="col-md-4 my-2">
           <div class="card p-5 text-center">
             <img v-bind:src="item.avatar" alt="">
             <h3> {{item.first_name}}<br> {{item.last_name}} </h3>

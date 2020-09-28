@@ -129,28 +129,28 @@
                     <div class="carousel-item active">
                         <img src="~@/assets/profile-1.jpg" class="d-block w-50 rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Frank Gabriel</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="~@/assets/blank-profile.png" class="d-block w-50 rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
-                            <h3>Akaninyene</h3>
+                            <p>Contributor</p>
+                            <h3>Akaninyene Umoh</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="~@/assets/FB_IMG_MARY.jpg" class="d-block w-50 rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Maryann Osuyak</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="~@/assets/blank-profile.png" class="d-block w-50 rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Joseph Ifamama</h3>
                         </div>
                     </div>
@@ -197,6 +197,9 @@
       <select class="select" id="validationCustom04" required>
         <option selected value="">AkwaIbom</option>
         <option>CrossRiver</option>
+        <option>Rivers</option>
+        <option>Lagos</option>
+        <option>Anambra</option>
       </select>
       <div class="invalid-feedback">
         Please select a valid state.

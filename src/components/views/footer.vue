@@ -15,10 +15,10 @@
        </div>
       <div class="col-6 text-white">
           <i class="fa fa-phone m-3" aria-hidden="true" style="font-size: 1.1rem"></i>
-          <span  style="font-size: 1.1rem">=> +2348121937569, +2348121937569, +2348121937569, +2348121937569.</span>
+          <span  style="font-size: 1.1rem">=> +2348121937569, +2348135942428, +2348121937569, +2348121937569.</span>
           <br>
           <i class="fa fa-envelope m-3" aria-hidden="true" style="font-size: 1.1rem"></i>
-          <span  style="font-size: 1.1rem">=> osuyakmayee@gmail.com, gabbygf04@gmail.com, josephifamama@gmail.com, gabbygf04@gmail.com.</span>
+          <span  style="font-size: 1.1rem">=> osuyakmayree@gmail.com, gabbygf04@gmail.com, josephifamama@gmail.com, gabbygf04@gmail.com.</span>
       </div>
      </div>
       <div class="text-center text-white mt-4 mb-2">
