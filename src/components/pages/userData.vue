@@ -1,15 +1,8 @@
 <template>
-<<<<<<< HEAD
-  <div id="app">
-    <div style="margin-top: 7rem" class="container-fluid">
-      <h1 class="text-center" style="color: #6f00ff7e; font-weight: 600"><u>Employ Now</u></h1>
-      <div class="row container-fluid">
-=======
   <div id="app" class="container-fluid">
     <div style="margin-top: 7rem">
       <h1 class="text-center" style="color: #6f00ff7e; font-weight: 600"><u>Employ Now</u></h1>
       <div class="row">
->>>>>>> cf46afb7dd1efdf60bb23fea6d4ced696b111633
         <div v-for="item in info" v-bind:key='item' class="col-md-4 my-2">
           <div class="card p-5 text-center">
             <img v-bind:src="item.avatar" alt="">

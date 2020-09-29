@@ -159,68 +159,6 @@
                 </a>
             </div>
             </div>
-<<<<<<< HEAD
-=======
-            <div>
-                <div class="card w-50 p-3" id="register" style="margin: 7.5rem auto">
-                    <form class="needs-validation" novalidate>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom01">First name</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom02">Last name</label>
-      <input type="text" class="form-control" id="validationCustom02" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03">City</label>
-      <input type="text" class="form-control" id="validationCustom03" required>
-      <div class="invalid-feedback">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom04">State</label>
-      <select class="select" id="validationCustom04" required>
-        <option selected value="">AkwaIbom</option>
-        <option>CrossRiver</option>
-        <option>Rivers</option>
-        <option>Lagos</option>
-        <option>Anambra</option>
-      </select>
-      <div class="invalid-feedback">
-        Please select a valid state.
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <div class="m-auto text-center">
-       <button class="btn pop" type="submit">Register</button>
-  </div>
- 
-</form>
-                </div>
-            </div>
->>>>>>> cf46afb7dd1efdf60bb23fea6d4ced696b111633
         </div>
     </section>
   </div>
