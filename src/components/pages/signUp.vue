@@ -40,12 +40,12 @@ export default {
   },
   methods: {
       check(){
-          if(this.email == "gabbygf04@gmail.com" || this.password == "08165591888"){
+          if(this.email == "gabbygf04@gmail.com" || this.password == "play"){
               this.book = false
               document.querySelector('#enter').classList.add('enter')
           }
           else{
-              alert('invalid User Name or Password')
+              alert('invalid E-mail or Password')
           }
       }
   }
@@ -55,7 +55,7 @@ export default {
 <style scoped>
     .sign{
         margin: 10rem auto;
-        width: 50%;
+        width: 80%;
         border: 2px solid #0000ff85;
         padding: 4rem 2rem;
         margin-bottom: 24rem;

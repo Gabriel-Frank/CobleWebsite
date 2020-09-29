@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <nav class="navbar navbar-expand-lg color-p fixed-top">
-  <a href="#" class="navbar-brand"><img src="~@/assets/logo.png" alt="" width="20%"></a>
+  <router-link to="/"><img src="~@/assets/logo.png" alt="" width="20%"></router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa fa-bars text-white" aria-hidden="true"></i>
   </button>

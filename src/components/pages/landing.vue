@@ -1,22 +1,16 @@
 <template>
   <div id="app">
-    <div class="hero text-white p-5">
+    <div class="hero text-white">
         <div>
             <div class="text-center">
-                <span style="font-weight: 600; font-size: 77px">Welcome to Cobly</span><br>
+                <span style="font-weight: 600; font-size: 77px" class="head">Welcome to Cobly</span><br>
                 <h4>Top Freelancing site just for Developers</h4>
                 <div class="d-inline-flex text-center">
-                    <a href="#register">
-                        <button class="btn-1 pop border-right">Register</button>
-                    </a>
                     <router-link to="/sign_in">
-                        <button class="btn-2 pop">Sign in</button>
-                    </router-link>
-                    
-                </div>
-                 
-            </div>
-                 
+                        <button class="btn pop">Sign in</button>
+                    </router-link>    
+                </div> 
+            </div>        
         </div>   
     </div>
     <section class="main">
@@ -40,9 +34,9 @@
                 </p>
             </div>
         </div>
-        <div class="text-center mt-5">
-            <div class="text-white rounded pt-2 rounder w-50 m-auto" style="background: linear-gradient(to bottom, #6200ffee, #a890ff)">
-                <h3 style="font-size: 2.5rem; font-weight: 600;"><span style="font-size: 5rem">.&nbsp;&nbsp;&nbsp;&nbsp;</span><u>Departments</u><span style="font-size: 5rem">&nbsp;&nbsp;&nbsp;&nbsp;.</span></h3>
+        <div class="text-center mt-5 container-fluid">
+            <div class="text-center text-white rounded pt-2 rounder w-50 m-auto" style="background: linear-gradient(to bottom, #6200ffee, #a890ff)">
+                <h3 style="font-size: 2.5rem; font-weight: 600;"><u>Departments</u></h3>
             </div>
             <div class="card-deck my-5">
                 <div class="card text-center">
@@ -77,7 +71,7 @@
                 <div class="card text-center">
                     <div class="m-2">
                         <i class="fas fa-globe m-1" style="font-size: 5rem; color: #3700fce3"></i>
-                        <i class="fas fa-dollar-sign text-white" style="position: absolute; left: 108px; top: 24px; font-size: 3rem;"></i>
+                        <i class="fas fa-dollar-sign text-white" style="position: absolute; left: 130px; top: 24px; font-size: 3rem;"></i>
                         <br>
                         <h3>Digital <br> Marketers</h3>
                         <hr style="background: black; width: 80%;">
@@ -115,7 +109,7 @@
         </div>
         <div class="my-5 pt-5">
             <div class="text-center text-white rounded pt-2 rounder w-50 m-auto" style="background: linear-gradient(to bottom, #6200ffee, #a890ff)">
-                <h3 style="font-size: 2.5rem; font-weight: 600;"><span style="font-size: 5rem">.&nbsp;&nbsp;&nbsp;&nbsp;</span><u>Our Team</u><span style="font-size: 5rem">&nbsp;&nbsp;&nbsp;&nbsp;.</span></h3>
+                <h3 style="font-size: 2.5rem; font-weight: 600;"><u>Our Team</u></h3>
             </div>
             <div class="container my-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -127,30 +121,30 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="~@/assets/profile-1.jpg" class="d-block w-50 rounded-circle m-auto" alt="...">
+                        <img src="~@/assets/profile-1.jpg" class="d-block wit rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Frank Gabriel</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="~@/assets/blank-profile.png" class="d-block w-50 rounded-circle m-auto" alt="...">
+                        <img src="~@/assets/blank-profile.png" class="d-block wit rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
-                            <h3>Akaninyene</h3>
+                            <p>Contributor</p>
+                            <h3>Akaninyene Umoh</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="~@/assets/FB_IMG_MARY.jpg" class="d-block w-50 rounded-circle m-auto" alt="...">
+                        <img src="~@/assets/FB_IMG_MARY.jpg" class="d-block wit rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Maryann Osuyak</h3>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="~@/assets/blank-profile.png" class="d-block w-50 rounded-circle m-auto" alt="...">
+                        <img src="~@/assets/ifa-pic.jpg" class="d-block wit rounded-circle m-auto" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Contibutor</p>
+                            <p>Contributor</p>
                             <h3>Joseph Ifamama</h3>
                         </div>
                     </div>
@@ -164,62 +158,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            </div>
-            <div>
-                <div class="card w-50 p-3" id="register" style="margin: 7.5rem auto">
-                    <form class="needs-validation" novalidate>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom01">First name</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom02">Last name</label>
-      <input type="text" class="form-control" id="validationCustom02" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03">City</label>
-      <input type="text" class="form-control" id="validationCustom03" required>
-      <div class="invalid-feedback">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom04">State</label>
-      <select class="select" id="validationCustom04" required>
-        <option selected value="">AkwaIbom</option>
-        <option>CrossRiver</option>
-      </select>
-      <div class="invalid-feedback">
-        Please select a valid state.
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <div class="m-auto text-center">
-       <button class="btn pop" type="submit">Register</button>
-  </div>
- 
-</form>
-                </div>
             </div>
         </div>
     </section>
@@ -242,7 +180,8 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center #a890ff;
-        padding-top: 6rem !important;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
     }
     a{
         text-decoration: none;
@@ -289,10 +228,21 @@ export default {
     #register{
         background-color: #c5a1d6;
     }
+    .wit{
+        width: 20rem;
+        height: 20rem;
+    }
     @media screen and (max-width: 800px){
         .hero{
             background-position: initial;
             
         }
+        .head{
+            font-size: 60px !important;
+        }
+        .last-card{
+        margin: 20px auto;
+        width: 100%;
+    }
     }
 </style>
