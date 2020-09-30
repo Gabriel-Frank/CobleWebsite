@@ -67,7 +67,7 @@ export default {
         color: #ffff;
         padding-top: 1rem;
         border: none;
-        width: 38rem;
+        width: 100%;
     }
     .enter{
         animation: enterance;
@@ -78,9 +78,6 @@ export default {
         .sign{
             width: 70%;
         }
-        .pop{
-        width: 14.5rem;
-    }
     }
     @keyframes enterance {
         from {font-size: 1px; opacity: 0.1;}
