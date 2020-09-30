@@ -232,6 +232,9 @@ export default {
         width: 230px;
         height: 230px;
     }
+    .card:hover{
+      box-shadow: 0 7px 19px rgba(0,0,0,0.25);
+    }
     @media screen and (max-width: 800px){
         .hero{
             background-position: initial;
