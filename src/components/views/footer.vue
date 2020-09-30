@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
   .vill{
-    background: linear-gradient(to top, #0e070f93, #ffffff00), url("~@/assets/server_room.jpg") ;
+    background: linear-gradient(to top, #000000ad, #ffffff00), url("~@/assets/server_room.jpg") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
