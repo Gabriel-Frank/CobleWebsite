@@ -76,7 +76,7 @@ export default {
     }
     @media screen and (max-width: 600px){
         .sign{
-            width: 70%;
+            width: 80%;
         }
     }
     @keyframes enterance {
