@@ -6,6 +6,7 @@
           <router-link style="color: #6f00ff7e" to="/" class="m-3">Back to Home</router-link>
       </div>
       <form class="sign rounded" v-show="book">
+          <h1 class="text-center">Sign in</h1>
   <div class="form-group" >
     <label for="email">Email address</label>
     <input type="email" class="form-control" v-model="email" aria-describedby="emailHelp">
@@ -20,7 +21,6 @@
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
   <div class="m-auto text-center">
-      <button type="button" class="btn pop m-auto" v-on:click='check'>Submit</button>
   </div>
 </form>
   </div>
