@@ -27,7 +27,7 @@
             <div style="margin-top: 5rem">
                 <h2> <u>Why Cobly?</u> </h2>
                 <p>
-                    Colby is safe & trusted and user data is handeled accurately.<br> Cobly ensures that 
+                    Cobly is safe & trusted and user data is handeled accurately.<br> Cobly ensures that 
                     all Users are treated fairly in the ranking process, <br>  we also take care of sorting out options
                     in order to <br>  make customers interaction simpler and more comfortable. <br> 
                     @ Cobly we make it easier to work from home in obervation of the COVID-19 pandemic in order to enhance saftey and productivity world wide.     
@@ -35,10 +35,10 @@
             </div>
         </div>
         <div class="text-center mt-5 container-fluid">
-            <div class="text-center text-white rounded pt-2 rounder w-50 m-auto" style="background: linear-gradient(to bottom, #6200ffee, #a890ff)">
+            <div class="text-center text-white rounded pt-2 rounder m-auto p-1 pt-3" style="background: linear-gradient(to bottom, #6200ffee, #a890ff); width: fit-content">
                 <h3 style="font-size: 2.5rem; font-weight: 600;"><u>Departments</u></h3>
             </div>
-            <div class="card-deck my-5">
+            <div class="card-deck container-fluide my-5">
                 <div class="card text-center">
                     <div class="m-2">
                         <i class="fa fa-html5 m-1" aria-hidden="true" style="font-size: 5rem; color: #3700fce3"></i>
@@ -67,7 +67,7 @@
                     <router-link to="/data"><button class="btn pop employ p-3 mb-3"> <i class="fa fa-briefcase" aria-hidden="true"></i> </button></router-link>
                 </div>
             </div>
-            <div class="card-deck">
+            <div class="card-deck container-fluide">
                 <div class="card text-center">
                     <div class="m-2">
                         <i class="fas fa-globe m-1" style="font-size: 5rem; color: #3700fce3"></i>
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="my-5 pt-5">
-            <div class="text-center text-white rounded pt-2 rounder w-50 m-auto" style="background: linear-gradient(to bottom, #6200ffee, #a890ff)">
+            <div class="text-center text-white rounded pt-2 rounder m-auto p-1 pt-3" style="background: linear-gradient(to bottom, #6200ffee, #a890ff); width: fit-content">
                 <h3 style="font-size: 2.5rem; font-weight: 600;"><u>Our Team</u></h3>
             </div>
             <div class="container my-5">
@@ -229,8 +229,8 @@ export default {
         background-color: #c5a1d6;
     }
     .wit{
-        width: 20rem;
-        height: 20rem;
+        width: 230px;
+        height: 230px;
     }
     @media screen and (max-width: 800px){
         .hero{

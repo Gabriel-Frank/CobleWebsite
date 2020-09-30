@@ -19,7 +19,9 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="button" class="btn pop m-auto" v-on:click='check'>Submit</button>
+  <div class="m-auto text-center">
+      <button type="button" class="btn pop m-auto" v-on:click='check'>Submit</button>
+  </div>
 </form>
   </div>
 </template>
@@ -55,7 +57,7 @@ export default {
 <style scoped>
     .sign{
         margin: 10rem auto;
-        width: 80%;
+        width: 50%;
         border: 2px solid #0000ff85;
         padding: 4rem 2rem;
         margin-bottom: 24rem;
@@ -65,14 +67,24 @@ export default {
         color: #ffff;
         padding-top: 1rem;
         border: none;
+        width: 38rem;
     }
     .enter{
         animation: enterance;
         animation-duration: 1s;
         animation-timing-function: ease;
     }
+    @media screen and (max-width: 600px){
+        .sign{
+            width: 70%;
+        }
+        .pop{
+        width: 14.5rem;
+    }
+    }
     @keyframes enterance {
         from {font-size: 1px; opacity: 0.1;}
         to{font-size: 20rem; opacity: 1.0;}
     }
+    
 </style>
